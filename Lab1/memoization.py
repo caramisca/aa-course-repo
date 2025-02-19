@@ -9,7 +9,7 @@ def nth_fibonacci_util(n, memo):
     if n <= 1:
         return n
 
-    # Check if the result is already in the memo table
+    # heck if the result is already in the memo table
     if memo[n] != -1:
         return memo[n]
 
